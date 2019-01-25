@@ -193,11 +193,11 @@ namespace Calculator
                 Assert.AreEqual(expectedResult, actualResult);
             }
             [Test]
-            public void GetDivision_Input25and5_Returns5()
+            public void GetDivision_Input50and5_Returns10()
             {
 
                 //Arrange             
-                double number1 = 25;
+                double number1 = 50;
                 double number2 = 5;
 
                 double expectedResult = number1 / number2;
