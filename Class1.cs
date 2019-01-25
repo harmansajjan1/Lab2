@@ -11,12 +11,12 @@ namespace Calculator
         class CalcTests
         {
             [Test]
-            public void GetAddition_Input7point4and8point8_Returns16point2()
+            public void GetAddition_Input3point4and5point6_Returns9point0()
             {
 
                 //Arrange             
-                double number1 = 6.4;
-                double number2 = 8.8;
+                double number1 = 3.4;
+                double number2 = 5.6;
 
                 double expectedResult = number1 + number2;
 
@@ -211,12 +211,12 @@ namespace Calculator
                 Assert.AreEqual(expectedResult, actualResult);
             }
             [Test]
-            public void GetDivision_Input21and7_Returns3()
+            public void GetDivision_Input24and8_Returns3()
             {
 
                 //Arrange             
-                double number1 = 21;
-                double number2 = 7;
+                double number1 = 24;
+                double number2 = 8;
 
                 double expectedResult = number1 / number2;
 
