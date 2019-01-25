@@ -11,12 +11,12 @@ namespace Calculator
         class CalcTests
         {
             [Test]
-            public void GetAddition_Input7point4and8point7_Returns16point1()
+            public void GetAddition_Input7point4and8point8_Returns16point2()
             {
 
                 //Arrange             
                 double number1 = 6.4;
-                double number2 = 8.7;
+                double number2 = 8.8;
 
                 double expectedResult = number1 + number2;
 
